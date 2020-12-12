@@ -1,3 +1,9 @@
+"""
+github.com/hijae/DCU_Notice_telegrambot
+Copyright (c) 2020, Hijae Song
+hijae99@gmail.com
+"""
+
 import requests
 
 import time
