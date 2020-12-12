@@ -1,5 +1,6 @@
 # DCU_Notice_telegrambot
- 대구가톨릭대학교 공지사항 텔레그램 채널 알림 봇
+ 대구가톨릭대학교 공지사항 텔레그램 채널 알림 봇  
+ daegu catholic university notice telegram channel bot
 
 ## Prerequisite 종속성
 
