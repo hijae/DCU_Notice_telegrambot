@@ -15,3 +15,7 @@
  채널ID를 확인한다. ( https://api.telegram.org/bot[YourTokenKey]/getUpdates )  
  확인한 채널ID를 run.py의 -100125727994대신에 넣는다.  
  run.py을 실행한다.  
+ 
+ ## Test
+ https://t.me/joinchat/AAAAAErwkcbb7iPCypUAbA
+ 테스트용 링크입니다. 테스트로 알림이 올수있습니다.
