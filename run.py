@@ -38,7 +38,7 @@ if __name__ == '__main__':
             latest_name = post_name
             for i in nametemp:
                 links = 'http://www.cu.ac.kr'+postlink[post_name.index(i)]
-                text = '<새 공지사항>'+'\n'+i+'\n[inline URL]('+str(links)+')'
+                text = '<새 공지사항>'+'\n'+i+'\n'+str(links)
                 bot.sendMessage(-1001257279942, text)
                 time.sleep(5)
                 # 프롬프트 로그
