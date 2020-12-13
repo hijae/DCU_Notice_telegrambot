@@ -18,5 +18,5 @@
  run.py을 실행한다.  
  
  ## Test
- https://t.me/joinchat/AAAAAErwkcbb7iPCypUAbA
+ https://t.me/DCU_Notice
  테스트용 링크입니다. 테스트로 알림이 올수있습니다.
