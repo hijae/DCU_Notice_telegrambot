@@ -1,7 +1,7 @@
 # DCU_Notice_telegrambot
  대구가톨릭대학교 공지사항 텔레그램 채널 알림 봇  
  daegu catholic university notice telegram channel bot
- 3분마다 공지사항을 확인하여 변경되면 알려줍니다.
+ 5분마다 공지사항을 확인하여 변경되면 알려줍니다.
 
 ## 종속성
 
@@ -18,7 +18,8 @@
  run.py을 실행한다.  
  
  ## To-do
- * 인터넷 끊긴 경우 대처
+ * ~~인터넷 끊긴 경우 대처~~
+ * 버그 확인
  
  ## Test
  https://t.me/DCU_Notice
