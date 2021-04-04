@@ -51,11 +51,11 @@ if __name__ == '__main__':
                 for i in nametemp:
                     links = 'http://www.cu.ac.kr'+postlink[post_name.index(i)]
                     text = '<새 공지사항>'+'\n'+i+'\n'+str(links)
-                    #bot.sendMessage(-1001257279942, text)
+                    bot.sendMessage(-1001257279942, text)
                     # 프롬프트 로그
                     print(text)
                     time.sleep(5)
-                    print('bot 동작 중 현재', post_name)
+            print('bot 동작 중 현재', post_name)
         except:
             print('bot error 현재', post_name)
         # 제일 최신 게시글 번호와 300초 마다 확인한 첫번째 게시글의 이름 비교
