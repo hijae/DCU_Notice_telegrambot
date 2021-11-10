@@ -22,5 +22,10 @@
  * 버그 확인
  
  ## Test
- https://t.me/DCU_Notice
+공지사항 알림 : https://t.me/DCU_Notice
+교외행사 알림 : https://t.me/DCU_event
+산학연구공지 알림 : https://t.me/DCU_research
+자유게시판 알림 : https://t.me/DCU_free
+묻고답하기 알림 : https://t.me/DCU_qna
+
  테스트용 링크입니다. 테스트로 알림이 올수있습니다.
