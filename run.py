@@ -5,24 +5,13 @@ hijae99@gmail.com
 """
 
 import requests
-
 import time
-
 from bs4 import BeautifulSoup # pip install beautifulsoup4
-
 import telegram # pip install python-telegram-bot
-
-
 
 bot = telegram.Bot(token='yourtoken') # 토큰 입력
 
-
-
 if __name__ == '__main__':
-
-    # 제일 최신 게시글의 이름 저장
-    latest_name = []
-    nametemp=[]
     while True:
         try:
             req = requests.get('http://www.cu.ac.kr/plaza/notice/notice') # 공지사항 페이지 접속
@@ -31,7 +20,7 @@ if __name__ == '__main__':
             posts = soup.find("tbody") # 테이블의 tbody 요소를 찾음
             post_name=[] # 게시글 제목을 저장할 리스트
             postlink=[] # 게시글 링크를 저장할 리스트
-            latest_name=[] # 제일 최신 게시글의 이름을 저장할 리스트 초기화
+            latest_name=[] # 제일 최신 게시글의 이름을 저장할 리스트
             with open('data.txt', 'r') as MyFile: # 파일을 읽어옴
                 while True:
                     line = MyFile.readline() # 파일을 줄단위로 읽어옴
